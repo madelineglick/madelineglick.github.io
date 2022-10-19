@@ -1,0 +1,43 @@
+@media only screen and (min-width: 761px) {
+  .card-img-top{
+    height: 250px;
+    width: 250px;
+  }
+  .card{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #goldCards8{
+    display: flex;
+    justify-content: center;
+  }
+  #goldCards3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .card-img-top{
+    height: 200px;
+    width: 200px;
+  }
+  .card{
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75%;
+  }
+  #goldCards8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #silverCards{
+    display: flex;
+    justify-content: center;
+  }
+}
