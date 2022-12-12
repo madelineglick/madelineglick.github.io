@@ -1,0 +1,41 @@
+#photoGalleriesTag{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 6em;
+}
+#imageSlider{
+  margin-bottom: 3em;
+}
+@media only screen and (min-width: 761px) {
+  .card-img-top{
+    height: 250px;
+    width: 250px;
+  }
+  .card{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #goldCards{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .card-img-top{
+    height: 200px;
+    width: 200px;
+  }
+  .card{
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75%;
+  }
+  #goldCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyles.css">
+  </head>
+  <body>
+    <header>
+<!-- #34a- team page includes header / #35- header is the same as home page header -->
+      <nav class="navbar navbar-collapse-sm navbar-expand-md navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Glick Arts</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+<!-- #36- team page link has active class -->
+                <a class="nav-link active" href="team.html">Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+<!-- #34b- team page includes main -->
+    <main>
+      <div class="container">
+<!-- #37/#39- main contains employee info bootstrap cards -->
+        <div id="employeegroupbox" class="row">
+<!-- #38a- layout responsively w/ bootstrap grid + column classes, show 2 items per row at largest screen / #38b- layout responsively w/ bootstrap grid + column classes, show 1 items per row at smallest screen -->
+          <div class="card mb-3 col-12 col-lg-6">
+            <img class="card-img-top" src="pics/madeline.jpeg" alt="madeline">
+            <div class="card-body">
+              <h5 class="card-title mb-2">Madeline Glick</h5>
+              <p class="card-text">Artist &amp; Design Consultant<br>(618)818-9000<br>madeline@glickartsco.com</p>
+            </div>
+          </div>
+          <div class="card mb-3 col-6 col-lg-3">
+            <img class="card-img-top" src="pics/kaden.jpeg" alt="kaden">
+            <div class="card-body">
+              <h5 class="card-title mb-2">Kaden Nwarache</h5>
+              <p class="card-text">Projects Manager<br>(618)818-9004<br>kaden@glickartsco.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+<!-- #34c- team page includes footer / #43- team page footer same as home page footer -->
+    <footer>
+      <p class="footer text-center bg-dark text-white">&copy; 2022 Glick Arts</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

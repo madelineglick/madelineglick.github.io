@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyles.css">
+  </head>
+  <body>
+<!-- #17a- products page includes header / #18- products page header is the same as the home page -->
+    <header>
+      <nav class="navbar navbar-collapse-sm navbar-expand-md navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Glick Arts</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+<!-- #19- products page link has the active class -->
+                <a class="nav-link active" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+<!-- #17b- products page includes main -->
+    <main>
+<!-- #20a- main contains jumbotron -->
+      <div id="jumbotronboxtwo" class="jumbotron">
+        <div id="jumbotroninfo">
+<!-- #21- jumbotron provides current sale info / #24- padding/margin classes to adjust spacing -->
+          <h2 class="m-4 text-center" id="bigtitletwo">NEW CUSTOMERS RECEIVE 50% OFF</h2>
+          <h5 class="m-3 text-center">FIRST ORDER!</h5>
+          <p class="m-1 mb-5 mt-3 text-center">Glick Arts • Valid through 11/01/22</p>
+        </div>
+      </div>
+<!-- #20b- main contains small selection of products -->
+      <div class="container">
+<!-- #25- correct semantic tags/divs -->
+        <div id="productsgroupbox" class="row">
+<!-- #27a- layout products responsively w/ bootstrap grid, 4 items per row for largest screen, 2 items per row for smaller screen -->
+          <div class="card mb-3 col-6 col-lg-3">
+            <img class="card-img-top" src="pics/drawing.jpeg" alt="linework">
+<!-- #26/#28- 4 products w/ bootstrap cards, classes: card, card-img-top, card-body, card-title, card-text (1/4) -->
+            <div class="card-body">
+              <h5 class="card-title mb-2">Linework Drawing</h5>
+              <p class="card-text">Drawing which will detail the concept with different line weights and effects. All drawing done with a monotoned ink liner.</p>
+            </div>
+          </div>
+<!-- #26/#28- 4 products w/ bootstrap cards, classes: card, card-img-top, card-body, card-title, card-text (2/4) -->
+          <div class="card mb-3 col-6 col-lg-3">
+            <img class="card-img-top" src="pics/alcoholmarker.jpeg" alt="copic">
+            <div class="card-body">
+              <h5 class="card-title mb-2">Alcohol Marker Drawing</h5>
+              <p class="card-text">Drawing using Copic alcohol markers and an assortment of liners to display the concept. Colors can be saturated to the client's liking.</p>
+            </div>
+          </div>
+<!-- #26/#28- 4 products w/ bootstrap cards, classes: card, card-img-top, card-body, card-title, card-text (3/4) -->
+          <div class="card mb-3 col-6 col-lg-3">
+            <img class="card-img-top" src="pics/digital.jpeg" alt="oscar">
+            <div class="card-body">
+              <h5 class="card-title mb-2">Digital Drawing</h5>
+              <p class="card-text">Drawing done to the customer's requests, using Procreate. Any drawing style/look can be utilized, and the product is provided in any file format.</p>
+            </div>
+          </div>
+<!-- #26/#28- 4 products w/ bootstrap cards, classes: card, card-img-top, card-body, card-title, card-text (4/4) -->
+          <div class="card mb-3 col-6 col-lg-3">
+            <img class="card-img-top" src="pics/acrylc.jpeg" alt="acrylic">
+            <div class="card-body">
+              <h5 class="card-title mb-2">Acrylic Painting</h5>
+              <p class="card-text">Painting with acrylic paint, using different colors and amounts to build depth, highlights, and texture. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+<!-- #17c- products page includes footer / #33 products page footer same as home page footer -->
+    <footer>
+      <p class="footer text-center bg-dark text-white">&copy; 2022 Glick Arts</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
