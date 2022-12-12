@@ -1,0 +1,23 @@
+<!-- #1- pick an entity to perform CRUD operations -->
+
+<!-- #2- code must be accessible through public github repo -->
+
+<!-- #3- 4+ properties on each entity -->
+
+<!-- #4- display a list of entities upon page load -->
+
+<!-- #5- user can create new entity with form controls -->
+
+<!-- #6- user can read individual entities, by searching for a property -->
+
+<!-- #7- user can update individual entities -->
+
+<!-- #8- user can delete individual entities -->
+
+<!-- #9- save/read entities from local storage -->
+
+<!-- #10- responsive site (mobile) for all features -->
+
+<!-- #11- Font Awesome icons -->
+
+<!-- #12- app demonstration/powerpoint on youtube -->
