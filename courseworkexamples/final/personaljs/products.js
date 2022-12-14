@@ -76,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
     greenDiv.style.color = 'black';
     blueDiv.style.color = 'blue';
     redDiv.style.color = 'black';
+    /* create new element */
 });
   redDiv.addEventListener("click", () => {
     inputDiv.style.visibility = "hidden";
